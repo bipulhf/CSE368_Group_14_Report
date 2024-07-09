@@ -26,13 +26,12 @@ Our project, the IoT-Integrated Farm Crop Recommendation System, aims to help fa
 <p align="justify">Write here...</p>
 
 
+<h2 id="app-introduction">Web App</h2>
 <p align="center">
   <img src="/resources/web_app.png" alt="Web App Structure" />
   <br>
   <i>Figure: A visualization of How Crop Recommendation Web App works.</i>
 </p>
-
-<h2 id="app-introduction">Web App</h2>
 
 <p style="text-align:justify;"><a href="https://npk-weld.vercel.app/" target="_blank">The Crop Recommendation Web App</a> helps farmers decide which crops to plant based on their soil's nutrients. This report explains why we made this app, what we wanted to achieve, how we built it, the problems we faced, and what we plan to do next.</p>
 
