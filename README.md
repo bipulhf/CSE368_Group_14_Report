@@ -80,7 +80,7 @@ The working procedure of the IoT part involves the following steps:
 </p>
 <ol>
   <li><b>Data Collection:</b> The NPK sensor is placed in the soil to measure the nutrient levels. These values are in a raw format that cannot be directly read by the Arduino Uno.</li>
-  <li><b>Data Conversion:</b> The MAX485 TTL module converts the raw data from the NPK sensor into a readable format for the Arduino Uno.</li>
+  <li><b>Data Conversion:</b> The MAX485 TTL module converts the raw data from the NPK sensor into a readable format for the Arduino Uno. The exact module must be chosen according to the model of NPK sensor. Some sensors does not even need this module as they have built-in mechanism for data conversion.</li>
   <li><b>Data Processing:</b> The Arduino Uno reads the converted data and processes it to extract the Nitrogen, Phosphorus, and Potassium values.</li>
   <li><b>Data Display:</b> The processed data is sent to the I2C module integrated LCD, which displays the Nitrogen, Phosphorus, and Potassium values for the user to see.</li>
 </ol>
@@ -98,7 +98,7 @@ Implementing the IoT part of the project presented several challenges:
   <li><b>Sensor Accuracy:</b> Ensuring the NPK sensor provides accurate and consistent readings was critical. Calibration and testing under different conditions were necessary to validate sensor performance.</li>
   <li><b>Data Transmission:</b> Integrating the MAX485 TTL module with the Arduino Uno required precise configuration to ensure seamless data transmission from the sensor to the microcontroller.</li>
   <li><b>Display Integration:</b> Configuring the I2C module integrated LCD to correctly display the nutrient values involved resolving compatibility issues and ensuring clear visualization of data.</li>
-  <li><b>Power Management:</b> Managing the power consumption of the IoT devices to ensure long-term operation in the field without frequent recharging or replacement of batteries.</li>
+  <li><b>Power Management:</b> Managing the power consumption of the IoT devices to ensure long-term operation in the field without frequent recharging or replacement of batteries. Although every NPK sensor states that it is able to operate between 5V to 30V, some sensors need at least 9V to operate.</li>
 </ul>
 
 <h2 id="app-introduction">Web App</h2>
