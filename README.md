@@ -2,7 +2,7 @@
 
 # Table of Contents
 
-- First Project: Crop Recommendation
+- [First Project: IoT-Integrated Crop Recommendation System](#first)
   - [IOT](#iot)
   - [Web App](#app-introduction)
     - [App Introduction](#app-introduction)
@@ -12,12 +12,18 @@
     - [Challenges](#challenges)
     - [Future Plans](#future-plans)
 
+<h1 id="first">IoT-Integrated Crop Recommendation System</h1>
 <p align="center">
   <img src="/resources/Main.png" alt="Project Structure" />
   <br>
   <i>Figure: A visualization of how our project will work.</i>
 </p>
+<p align="justify">
+Our project, the IoT-Integrated Farm Crop Recommendation System, aims to help farmers make better decisions about which crops to grow using technology. This system combines IoT devices with a simple web app to provide farmers with real-time data on their soil's nutrients and personalized crop suggestions. In places like Bangladesh, farming is crucial for the economy, but many farmers rely on traditional methods that might not be the most efficient. Our goal is to bring modern technology to agriculture, making it easier for farmers to choose the best crops based on their soil's needs.
+</p>
 
+<h2 id="iot">IOT<h2>
+<p align="justify">Write here...</p>
 
 
 <p align="center">
@@ -26,7 +32,7 @@
   <i>Figure: A visualization of How Crop Recommendation Web App works.</i>
 </p>
 
-<h2 id="app-introduction">App Introduction</h2>
+<h2 id="app-introduction">Web App</h2>
 
 <p style="text-align:justify;"><a href="https://npk-weld.vercel.app/" target="_blank">The Crop Recommendation Web App</a> helps farmers decide which crops to plant based on their soil's nutrients. This report explains why we made this app, what we wanted to achieve, how we built it, the problems we faced, and what we plan to do next.</p>
 
