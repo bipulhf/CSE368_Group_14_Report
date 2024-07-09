@@ -1,5 +1,24 @@
 # CSE368_Group_14_Report
 
+# Table of Contents
+
+- [First Project: Crop Recommendation]
+  - [IOT](#iot)
+  - [Web App](#app-introduction)
+    - [App Introduction](#app-introduction)
+    - [Motivation](#motivation)
+    - [Objectives](#objectives)
+    - [Implementation](#implementation)
+    - [Challenges](#challenges)
+    - [Future Plans](#future-plans)
+
+<p align="center">
+  <img src="/resources/Main.png" alt="Project Structure" />
+  <br>
+  <i>Figure: A visualization of how our project will work.</i>
+</p>
+
+
 
 <p align="center">
   <img src="/resources/web_app.png" alt="Web App Structure" />
@@ -42,3 +61,21 @@
 2. **Using Data Better:** We aim to use computers to analyze data and tell farmers the best times to plant crops and how much they will grow.
 
 3. **Working Together:** In the future, we want to make a place where farmers can share their ideas and learn from each other, making farming better for everyone.
+
+<div style="display:flex;">
+    <p align="center">
+    <img src="/resources/1.png" alt="UI 1" />
+    <br>
+    <i>Figure 1: First Page of our web app.</i>
+  </p>
+  <p align="center">
+    <img src="/resources/2.png" alt="Smart City Image" />
+    <br>
+    <i>Figure 2: What happens when user provides wrong NPK values.</i>
+  </p>
+  <p align="center">
+    <img src="/resources/3.png" alt="Smart City Image" />
+    <br>
+    <i>Figure 3: Crops suggestion bases on NPK values.</i>
+  </p>
+</div>
