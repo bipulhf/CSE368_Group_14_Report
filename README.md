@@ -3,8 +3,10 @@
 # Table of Contents
 
 - [First Project: IoT-Integrated Crop Recommendation System](#first)
-  - [IOT](#iot)
+  - [IOT Part](#iot)
     - [Introduction](#iot-introduction)
+    - [Hardware Description](#iot-hardware)
+    - [Working Procedure](#iot-working)
   - [Web App](#app-introduction)
     - [App Introduction](#app-introduction)
     - [Motivation](#motivation)
@@ -23,8 +25,62 @@
 Our project, the IoT-Integrated Farm Crop Recommendation System, aims to help farmers make better decisions about which crops to grow using technology. This system combines IoT devices with a simple web app to provide farmers with real-time data on their soil's nutrients and personalized crop suggestions. In places like Bangladesh, farming is crucial for the economy, but many farmers rely on traditional methods that might not be the most efficient. Our goal is to bring modern technology to agriculture, making it easier for farmers to choose the best crops based on their soil's needs.
 </p>
 
-<h2 id="iot">IOT</h2>
-<p align="justify">Write here...</p>
+<h2 id="iot">IOT Part</h2>
+<h3 id="iot-introduction">Introduction</h3>
+<p align="justify">
+The IoT part of our project focuses on gathering real-time data on soil nutrients to help farmers make informed decisions about crop selection. By using sensors and microcontrollers, we can measure the levels of Nitrogen (N), Phosphorus (P), and Potassium (K) in the soil, and display these values on an LCD screen. This data is then used by the web app to recommend suitable crops.
+</p>
+<h3 id="iot-hardware">Hardware Description</h3>
+<p align="justify">
+The hardware components used in this project are:
+</p>
+<ul>
+  <li><b>NPK Sensor:</b> This sensor measures the levels of Nitrogen, Phosphorus, and Potassium in the soil.</li>
+</ul>
+<p align="center">
+  <img src="/resources/NPK_Sensor.png" alt="NPK Sensor" />
+  <br>
+  <i>Figure: NPK Sensor used to measure soil nutrients.</i>
+</p>
+<ul>
+  <li><b>MAX485 TTL Module:</b> Acts as a middleware to convert sensor data into a format that can be read by the Arduino Uno.</li>
+</ul>
+<p align="center">
+  <img src="/resources/MAX485_TTL_Module.png" alt="MAX485 TTL Module" />
+  <br>
+  <i>Figure: MAX485 TTL Module for data conversion.</i>
+</p>
+<ul>
+  <li><b>Arduino Uno:</b> A microcontroller that reads the sensor data and processes it.</li>
+</ul>
+<p align="center">
+  <img src="/resources/Arduino_Uno.png" alt="Arduino Uno" />
+  <br>
+  <i>Figure: Arduino Uno microcontroller used for processing data.</i>
+</p>
+<ul>
+  <li><b>I2C Module Integrated LCD:</b> Displays the sensor readings for Nitrogen, Phosphorus, and Potassium.</li>
+</ul>
+<p align="center">
+  <img src="/resources/I2C_LCD.png" alt="I2C Module Integrated LCD" />
+  <br>
+  <i>Figure: I2C Module Integrated LCD for displaying sensor readings.</i>
+</p>
+<h3 id="iot-working">Working Procedure</h3>
+<p align="justify">
+The working procedure of the IoT part involves the following steps:
+</p>
+<ol>
+  <li><b>Data Collection:</b> The NPK sensor is placed in the soil to measure the nutrient levels. These values are in a raw format that cannot be directly read by the Arduino Uno.</li>
+  <li><b>Data Conversion:</b> The MAX485 TTL module converts the raw data from the NPK sensor into a readable format for the Arduino Uno.</li>
+  <li><b>Data Processing:</b> The Arduino Uno reads the converted data and processes it to extract the Nitrogen, Phosphorus, and Potassium values.</li>
+  <li><b>Data Display:</b> The processed data is sent to the I2C module integrated LCD, which displays the Nitrogen, Phosphorus, and Potassium values for the user to see.</li>
+</ol>
+<p align="center">
+  <img src="/resources/IOT_Working.png" alt="IOT Working" />
+  <br>
+  <i>Figure: Workflow of the IoT part of the project.</i>
+</p>
 
 
 <h2 id="app-introduction">Web App</h2>
