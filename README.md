@@ -2,7 +2,7 @@
 
 # Table of Contents
 
-- [First Project: Crop Recommendation]
+- First Project: Crop Recommendation
   - [IOT](#iot)
   - [Web App](#app-introduction)
     - [App Introduction](#app-introduction)
@@ -62,20 +62,6 @@
 
 3. **Working Together:** In the future, we want to make a place where farmers can share their ideas and learn from each other, making farming better for everyone.
 
-<div style="display:flex;">
-    <p align="center">
-    <img src="/resources/1.png" alt="UI 1" />
-    <br>
-    <i>Figure 1: First Page of our web app.</i>
-  </p>
-  <p align="center">
-    <img src="/resources/2.png" alt="Smart City Image" />
-    <br>
-    <i>Figure 2: What happens when user provides wrong NPK values.</i>
-  </p>
-  <p align="center">
-    <img src="/resources/3.png" alt="Smart City Image" />
-    <br>
-    <i>Figure 3: Crops suggestion bases on NPK values.</i>
-  </p>
-</div>
+| Figure 1                              | Figure 2                              | Figure 3                              |
+|----------------------------------------|----------------------------------------|----------------------------------------|
+| <div align="center"><img src="/resources/1.png" alt="UI 1" /><br><i>Figure 1: First Page of our web app.</i></div>   | <div align="center"><img src="/resources/2.png" alt="Smart City Image" /><br><i>Figure 2: What happens when user provides wrong NPK values.</i></div>    | <div align="center"><img src="/resources/3.png" alt="Smart City Image" /><br><i>Figure 3: Crops suggestion bases on NPK values.</i></div>    |
