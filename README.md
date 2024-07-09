@@ -46,7 +46,7 @@ The hardware components used in this project are:
   <li><b>NPK Sensor:</b> This sensor measures the levels of Nitrogen, Phosphorus, and Potassium in the soil.</li>
 </ul>
 <p align="center">
-  <img src="/resources/NPK_Sensor.png" alt="NPK Sensor" />
+  <img src="/resources/NPK_Sensor.jpg" alt="NPK Sensor" />
   <br>
   <i>Figure: NPK Sensor used to measure soil nutrients.</i>
 </p>
@@ -54,7 +54,7 @@ The hardware components used in this project are:
   <li><b>MAX485 TTL Module:</b> Acts as a middleware to convert sensor data into a format that can be read by the Arduino Uno.</li>
 </ul>
 <p align="center">
-  <img src="/resources/MAX485_TTL_Module.png" alt="MAX485 TTL Module" />
+  <img src="/resources/MAX485_TTL_Module.jpg" alt="MAX485 TTL Module" />
   <br>
   <i>Figure: MAX485 TTL Module for data conversion.</i>
 </p>
@@ -62,7 +62,7 @@ The hardware components used in this project are:
   <li><b>Arduino Uno:</b> A microcontroller that reads the sensor data and processes it.</li>
 </ul>
 <p align="center">
-  <img src="/resources/Arduino_Uno.png" alt="Arduino Uno" />
+  <img src="/resources/Arduino_Uno.jpg" alt="Arduino Uno" />
   <br>
   <i>Figure: Arduino Uno microcontroller used for processing data.</i>
 </p>
@@ -70,7 +70,7 @@ The hardware components used in this project are:
   <li><b>I2C Module Integrated LCD:</b> Displays the sensor readings for Nitrogen, Phosphorus, and Potassium.</li>
 </ul>
 <p align="center">
-  <img src="/resources/I2C_LCD.png" alt="I2C Module Integrated LCD" />
+  <img src="/resources/I2C_LCD.jpg" alt="I2C Module Integrated LCD" />
   <br>
   <i>Figure: I2C Module Integrated LCD for displaying sensor readings.</i>
 </p>
@@ -85,7 +85,7 @@ The working procedure of the IoT part involves the following steps:
   <li><b>Data Display:</b> The processed data is sent to the I2C module integrated LCD, which displays the Nitrogen, Phosphorus, and Potassium values for the user to see.</li>
 </ol>
 <p align="center">
-  <img src="/resources/IOT_Working.png" alt="IOT Working" />
+  <img src="/resources/IOT_Working.jpg" alt="IOT Working" />
   <br>
   <i>Figure: Workflow of the IoT part of the project.</i>
 </p>
