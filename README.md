@@ -22,7 +22,7 @@
 Our project, the IoT-Integrated Farm Crop Recommendation System, aims to help farmers make better decisions about which crops to grow using technology. This system combines IoT devices with a simple web app to provide farmers with real-time data on their soil's nutrients and personalized crop suggestions. In places like Bangladesh, farming is crucial for the economy, but many farmers rely on traditional methods that might not be the most efficient. Our goal is to bring modern technology to agriculture, making it easier for farmers to choose the best crops based on their soil's needs.
 </p>
 
-<h2 id="iot">IOT<h2>
+<h2 id="iot">IOT</h2>
 <p align="justify">Write here...</p>
 
 
