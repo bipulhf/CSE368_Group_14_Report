@@ -85,7 +85,7 @@ The working procedure of the IoT part involves the following steps:
   <li><b>Data Display:</b> The processed data is sent to the I2C module integrated LCD, which displays the Nitrogen, Phosphorus, and Potassium values for the user to see.</li>
 </ol>
 <p align="center">
-  <img src="/resources/IOT_Working.jpg" alt="IOT Working" />
+  <img src="/resources/IOT_Working.png" alt="IOT Working" />
   <br>
   <i>Figure: Workflow of the IoT part of the project.</i>
 </p>
@@ -110,11 +110,11 @@ Implementing the IoT part of the project presented several challenges:
 
 <p style="text-align:justify;"><a href="https://npk-weld.vercel.app/" target="_blank">The Crop Recommendation Web App</a> helps farmers decide which crops to plant based on their soil's nutrients. This report explains why we made this app, what we wanted to achieve, how we built it, the problems we faced, and what we plan to do next.</p>
 
-<h2 id="app-motivation">Motivation</h2>
+<h3 id="app-motivation">Motivation</h3>
 
 <p style="text-align:justify;">In Bangladesh, agriculture is crucial for economies, but choosing the right crops can be tricky. Traditional methods of soil testing and crop advice are slow and complicated. We created this app to make it easier for farmers. Our goal was to give them a simple tool to quickly find out which crops are best for their land.</p>
 
-<h2 id="app-objectives">Objectives</h2>
+<h3 id="app-objectives">Objectives</h3>
 
 1. **Automated Crop Advice:** Farmers can enter their soil's nitrogen, phosphorus, and potassium levels. The app uses the Gemini API to suggest suitable crops instantly.
 
@@ -122,11 +122,11 @@ Implementing the IoT part of the project presented several challenges:
 
 3. **Future Features:** In the future, we want to let farmers upload pictures of their crops for advice on pests, and add voice commands to make the app easier to use.
 
-<h2 id="app-implementation">Implementation</h2>
+<h3 id="app-implementation">Implementation</h3>
 
 <p style="text-align:justify;">We built the app using <a href="https://nextjs.org/" target="_blank">Next.js</a>, which makes websites fast. The Gemini API helps us give crop suggestions based on soil data. LangChain adds more information from different sources to improve our advice. We have used <a href="https://ui.shadcn.com/" target="_blank">shadcn</a> as our UI library.</p>
 
-<h2 id="app-challneges">Challenges</h2>
+<h3 id="app-challneges">Challenges</h3>
 
 1. **Issues with IoT Devices:** Originally, we planned to use IoT devices with sensors to automatically update soil data in our app. But setting this up was hard, so farmers have to enter data manually.
 
@@ -134,7 +134,7 @@ Implementing the IoT part of the project presented several challenges:
 
 3. **Using LangChain:** Adding LangChain to extract useful information was harder than we thought. We are still working on using it better.
 
-<h2 id="app-plans">Future Plans</h2>
+<h3 id="app-plans">Future Plans</h3>
 
 1. **More Features:** We want to let farmers upload pictures of their crops for better advice. We also plan to add voice commands and make it easier to use.
 
