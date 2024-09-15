@@ -1,5 +1,19 @@
 # CSE368_Group_14_Report
 
+## Submitted By
+
+| No. | Name                        | Registration No.  |
+|-----|-----------------------------|-------------------|
+| 1   | Abhishek Dash                | 2020331001        |
+| 2   | Mohammad Shaifur Rahaman     | 2020331045        |
+| 3   | Gazi Mujtaba Rafid           | 2020331051        |
+| 4   | Barnali Sarker Shoumita      | 2020331059        |
+| 5   | Md. Shahiduzzaman            | 2020331093        |
+
+
+<a href="https://github.com/bipulhf/CSE368_Group_14_Report" target="_blank">GitHub Link of this project</a>
+
+
 # Table of Contents
 
 - [First Project: IoT-Integrated Crop Recommendation System](#first)
@@ -191,6 +205,13 @@ The sonar sensor sends out sound waves, and the time it takes for the waves to b
 - **Servo Control**: Maintaining precise control over the servomotor's rotation speed and angle was critical for accurate scanning.
 - **Sonar Accuracy**: Ensuring that the sonar sensor could accurately detect objects, especially small ones, was challenging.
 - **Visualization**: Creating a smooth real-time radar visualization in Processing PDE required efficient data handling and rendering.
+
+
+## Submitted To
+**Abdullah Al Noman** <br/>
+*Lecturer* <br/>
+*Computer Science and Engineering Department*, <br/>
+Shahjalal University of Science and Technology
 
 
 
