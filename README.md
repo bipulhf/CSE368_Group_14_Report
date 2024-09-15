@@ -31,11 +31,11 @@
     - [Challenges](#challenges)
     - [Future Plans](#future-plans)
 - [Second Project: Radar System](#second)
-  - [Introduction](#radar-introduction)
   - [Motivation](#radar-motivation)
   - [Hardware Description](#radar-hardware)
   - [Working Procedure](#radar-working)
-  - [Challenges](#radar-challenges) 
+  - [Challenges](#radar-challenges)
+- [Conclusion](#conclusion)
 
 <h1 id="first">IoT-Integrated Crop Recommendation System</h1>
 <p align="center">
@@ -173,11 +173,11 @@ Implementing the IoT part of the project presented several challenges:
   <br>
   <i>Figure: A visualization of how our project will work.</i>
 </p>
-<p align="justify">
+<p style="text-align:justify;">
 The Radar System project is designed to explore object detection through sonar technology, mimicking fundamental radar principles. By using an ultrasonic sonar sensor mounted on a servomotor, this system can scan a wide area and detect objects within its range. The sonar sensor emits ultrasonic waves, and by measuring the time it takes for these waves to return after reflecting off objects, the system calculates distances and visualizes them in real-time using Processing PDE software. This project demonstrates the practical applications of radar-like systems in fields such as robotics, security, and autonomous vehicles, offering a valuable tool for real-time object detection and spatial awareness.
 </p>
 <h2 id="radar-motivation">Motivation</h2>
-<p align="justify">
+<p style="text-align:justify;">
 The Radar System project is motivated by the need for accessible and cost-effective object detection technology, essential in fields such as autonomous vehicles, robotics, and security. Traditional radar systems, while effective, can be expensive and complex, limiting their use in educational and experimental contexts. By utilizing sonar technology, this project offers a practical and affordable alternative that demonstrates key radar principles. It provides hands-on experience with real-time object detection and visualization, addressing the growing demand for such technologies and offering valuable insights into both theoretical and practical aspects of radar-like systems.
 </p>
 
@@ -196,7 +196,7 @@ The Radar System project is motivated by the need for accessible and cost-effect
   <i>Figure: Radar System Working Procedure.</i>
 </p>
 
-<p align="justify">
+<p style="text-align:justify;">
 The sonar sensor sends out sound waves, and the time it takes for the waves to bounce back is used to calculate the distance to an object. The servomotor rotates the sensor across a specific angle range, enabling the system to scan a wide area. The Arduino Uno reads the sonar data and transmits it to the Processing PDE software, which plots the distances on a radar-like display.
 </p>
 
@@ -206,6 +206,8 @@ The sonar sensor sends out sound waves, and the time it takes for the waves to b
 - **Sonar Accuracy**: Ensuring that the sonar sensor could accurately detect objects, especially small ones, was challenging.
 - **Visualization**: Creating a smooth real-time radar visualization in Processing PDE required efficient data handling and rendering.
 
+<h1 id="conclusion">Conclusion</h1>
+<p style="text-align:justify;">In our CSE 368 lab project, our goal was to develop an automated system for farmers to instantly obtain the NPK values of soil and receive plant suggestions based on those values through a machine learning system and a user-friendly app. Unfortunately, due to sensor incompatibility, we were unable to achieve this. Despite assembling all the components correctly, we couldn't retrieve the necessary data. However, our app was fully functional and ready. Following this attempt, we successfully created a radar system project involving sonar, a servo motor, a microcontroller, and PDE processing software. This project was highly enjoyable and provided valuable learning experiences. We gained significant knowledge about microcontrollers, their programming, and overall system control.</p>
 
 ## Submitted To
 **Abdullah Al Noman** <br/>
