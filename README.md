@@ -16,6 +16,12 @@
     - [Implementation](#implementation)
     - [Challenges](#challenges)
     - [Future Plans](#future-plans)
+- [Second Project: Radar System](#second)
+  - [Introduction](#radar-introduction)
+  - [Motivation](#radar-motivation)
+  - [Hardware Description](#radar-hardware)
+  - [Working Procedure](#radar-working)
+  - [Challenges](#radar-challenges) 
 
 <h1 id="first">IoT-Integrated Crop Recommendation System</h1>
 <p align="center">
@@ -145,3 +151,40 @@ Implementing the IoT part of the project presented several challenges:
 | Figure 1                              | Figure 2                              | Figure 3                              |
 |----------------------------------------|----------------------------------------|----------------------------------------|
 | <div align="center"><img src="/resources/1.png" alt="UI 1" /><br><i>Figure 1: First Page of our web app.</i></div>   | <div align="center"><img src="/resources/2.png" alt="Smart City Image" /><br><i>Figure 2: What happens when user provides wrong NPK values.</i></div>    | <div align="center"><img src="/resources/3.png" alt="Smart City Image" /><br><i>Figure 3: Crops suggestion bases on NPK values.</i></div>    |
+<br><br>
+
+<h1 id="second">Radar System</h1>
+<p align="center">
+  <iframe width="560" height="315" src="https://youtu.be/8jvu84nntnI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <br>
+  <i>Figure: A visualization of how our project will work.</i>
+</p>
+<p align="justify">
+The Radar System project is designed to explore object detection through sonar technology, mimicking fundamental radar principles. By using an ultrasonic sonar sensor mounted on a servomotor, this system can scan a wide area and detect objects within its range. The sonar sensor emits ultrasonic waves, and by measuring the time it takes for these waves to return after reflecting off objects, the system calculates distances and visualizes them in real-time using Processing PDE software. This project demonstrates the practical applications of radar-like systems in fields such as robotics, security, and autonomous vehicles, offering a valuable tool for real-time object detection and spatial awareness.
+</p>
+<h2 id="radar-motivation">Motivation</h2>
+<p align="justify">
+The Radar System project is motivated by the need for accessible and cost-effective object detection technology, essential in fields such as autonomous vehicles, robotics, and security. Traditional radar systems, while effective, can be expensive and complex, limiting their use in educational and experimental contexts. By utilizing sonar technology, this project offers a practical and affordable alternative that demonstrates key radar principles. It provides hands-on experience with real-time object detection and visualization, addressing the growing demand for such technologies and offering valuable insights into both theoretical and practical aspects of radar-like systems.
+</p>
+
+<h2 id="radar-hardware">Hardware Description</h3>
+
+- **Sonar Sensor (HC-SR04)**: Measures the distance to objects by emitting ultrasonic sound waves.
+- **Servomotor (SG90)**: Rotates the sonar sensor, allowing it to cover a wide scanning area.
+- **Arduino Uno**: Controls the servomotor and processes the sonar data.
+- **Processing PDE Software**: Visualizes detected objects in a radar-like graphical interface.
+
+<h2 id="radar-working">Working Procedure</h3>
+
+<p align="justify">
+The sonar sensor sends out sound waves, and the time it takes for the waves to bounce back is used to calculate the distance to an object. The servomotor rotates the sensor across a specific angle range, enabling the system to scan a wide area. The Arduino Uno reads the sonar data and transmits it to the Processing PDE software, which plots the distances on a radar-like display.
+</p>
+
+<h2 id="radar-challenges">Challenges</h3>
+
+- **Servo Control**: Maintaining precise control over the servomotor's rotation speed and angle was critical for accurate scanning.
+- **Sonar Accuracy**: Ensuring that the sonar sensor could accurately detect objects, especially small ones, was challenging.
+- **Visualization**: Creating a smooth real-time radar visualization in Processing PDE required efficient data handling and rendering.
+
+
+
