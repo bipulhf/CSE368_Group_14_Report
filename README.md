@@ -177,7 +177,7 @@ The Radar System project is motivated by the need for accessible and cost-effect
 <h2 id="radar-working">Working Procedure</h3>
 
 <p align="center">
-  <img src="/resources/Radar_Working.jpg" alt="Radar Working Procedure" />
+  <img src="/resources/Radar_Working.png" alt="Radar Working Procedure" />
   <br>
   <i>Figure: Radar System Working Procedure.</i>
 </p>
