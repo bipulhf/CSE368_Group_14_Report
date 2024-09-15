@@ -68,7 +68,7 @@ The hardware components used in this project are:
   <li><b>Arduino Uno:</b> A microcontroller that reads the sensor data and processes it.</li>
 </ul>
 <p align="center">
-  <img src="/resources/Arduino_Uno.jpg" alt="Arduino Uno" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Arduino_Uno_-_R3.jpg" alt="Arduino Uno" />
   <br>
   <i>Figure: Arduino Uno microcontroller used for processing data.</i>
 </p>
@@ -155,7 +155,7 @@ Implementing the IoT part of the project presented several challenges:
 
 <h1 id="second">Radar System</h1>
 <p align="center">
-  <iframe width="560" height="315" src="https://youtu.be/8jvu84nntnI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <a href="https://youtu.be/8jvu84nntnI"><img src="/resources/thumbnail.png" alt="Radar System Video Thumbnail" /></a>
   <br>
   <i>Figure: A visualization of how our project will work.</i>
 </p>
