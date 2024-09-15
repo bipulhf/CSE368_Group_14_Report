@@ -155,7 +155,7 @@ Implementing the IoT part of the project presented several challenges:
 
 <h1 id="second">Radar System</h1>
 <p align="center">
-  <a href="https://youtu.be/8jvu84nntnI"><img src="/resources/thumbnail.png" alt="Radar System Video Thumbnail" /></a>
+  <a href="https://youtu.be/8jvu84nntnI" target="_blank""><img src="/resources/thumbnail.png" alt="Radar System Video Thumbnail" /></a>
   <br>
   <i>Figure: A visualization of how our project will work.</i>
 </p>
@@ -175,6 +175,12 @@ The Radar System project is motivated by the need for accessible and cost-effect
 - **Processing PDE Software**: Visualizes detected objects in a radar-like graphical interface.
 
 <h2 id="radar-working">Working Procedure</h3>
+
+<p align="center">
+  <img src="/resources/Radar_Working.jpg" alt="Radar Working Procedure" />
+  <br>
+  <i>Figure: Radar System Working Procedure.</i>
+</p>
 
 <p align="justify">
 The sonar sensor sends out sound waves, and the time it takes for the waves to bounce back is used to calculate the distance to an object. The servomotor rotates the sensor across a specific angle range, enabling the system to scan a wide area. The Arduino Uno reads the sonar data and transmits it to the Processing PDE software, which plots the distances on a radar-like display.
